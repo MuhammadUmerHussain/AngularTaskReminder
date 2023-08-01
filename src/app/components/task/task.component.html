@@ -1,0 +1,4 @@
+<app-task-item  (ActiveTaskEmitter)="ActiveCall(task)" *ngFor="let task of tasks" [task]="task" (DeleteTaskEmitter)="onServiceDelete(task)"></app-task-item>
+
+
+
